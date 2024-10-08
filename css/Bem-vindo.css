@@ -1,0 +1,28 @@
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin: auto auto;
+    gap: 25px;
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin: auto auto;
+    gap: 40px;
+}
+
+img {
+    width: 70%;
+}
+
+main{
+    display: flex;
+}
+
