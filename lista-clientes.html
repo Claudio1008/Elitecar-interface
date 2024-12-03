@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro Clientes</title>
+    <title>LISTA CLIENTES</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/principal.css">
     <link rel="stylesheet" href="css/navegacao.css">
     <link rel="stylesheet" href="css/listagem.css">
 </head>
-<body>
+<body onload="recuperaListaClientes()">
     <header>
         <nav>
             <a href="lista-clientes.html">CLIENTES</a>
             <a href="lista-carros.html">CARROS</a>
-            <a href="lista-carros.html">PEDIDOS</a>
+            <a href="lista-pedidos.html">PEDIDOS</a>
         </nav>
     </header>
     <div class="painel">
         <div class="esquerda">
             <div>
-                <a href="/cadastro-cliente.html">NOVO CLIENTE</a>
+                <a href="cadastro-cliente.html">NOVO CLIENTE</a>
             </div>
         </div>
         <div class="meio">
@@ -40,38 +40,11 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>APARECIDA EVELYN ISABELLE DA ROCHA</td>
-                    <td>664.851.780-82</td>
-                    <td>(96) 98230-6325</td>
-                    <td>
-                        <img src="assets/icons/pencil-square.svg" alt="editar">
-                        <img src="assets/icons/trash-fill.svg" alt="excluir">
-                    </td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>SEVERINO GERALDO FERNANDES</td>
-                    <td>353.240.796-50</td>
-                    <td>(91) 98158-9367</td>
-                    <td>
-                        <img src="assets/icons/pencil-square.svg" alt="editar">
-                        <img src="assets/icons/trash-fill.svg" alt="excluir">
-                    </td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>JQUELINE AMANDA ADRIANA MARTINSA</td>
-                    <td>102.173.781-02</td>
-                    <td>(84) 99548-7514</td>
-                    <td>
-                        <img src="assets/icons/pencil-square.svg" alt="editar">
-                        <img src="assets/icons/trash-fill.svg" alt="excluir">
-                    </td>
-                </tr>
+                
             </tbody>
         </table>
     </div>
+
+    <script src="js/cliente.js"></script>
 </body>
 </html>
